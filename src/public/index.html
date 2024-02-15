@@ -6,34 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/src/output.css">
-    
-  <link
-  crossorigin="crossorigin"
-  href="https://fonts.gstatic.com"
-  rel="preconnect"
-/>
 
-<link
-  as="style"
-  href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
-  rel="preload"
-/>
+    <link crossorigin="crossorigin" href="https://fonts.gstatic.com" rel="preconnect" />
 
-<link
-  href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
-  rel="stylesheet"
-/>
+    <link as="style"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
+        rel="preload" />
 
-<link
-  href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-  rel="stylesheet"
-/>
-    <script
-    defer
-    src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"
-  ></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Raleway:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
 
-  <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <script defer src="https://unpkg.com/@alpine-collective/toolkit@1.0.0/dist/cdn.min.js"></script>
+
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 
 <body>
@@ -99,6 +86,96 @@
             <img class="w-[500px]" src="/img/home.png" alt="">
         </div>
     </section>
+    <div class="bg-grey-50" id="about">
+        <div class="container flex flex-col items-center py-16 md:py-20 lg:flex-row">
+            <div class="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
+                <h2 class="font-header text-4xl font-semibold uppercase  sm:text-5xl lg:text-6xl">
+                    Who am I?
+                </h2>
+                <h4 class="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+                    I'm Zava Zaneta, a Web Developer & Software Engineer
+                </h4>
+                <p class="pt-6 font-body leading-relaxed text-grey-20">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.
+                </p>
+                <div class="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
+                    <div class="flex items-center justify-center sm:justify-start">
+                        <p class="font-body text-lg font-semibold uppercase text-gray-200">
+                            Connect with me
+                        </p>
+                        <div class="hidden sm:block">
+                            <i class="bx bx-chevron-right text-2xl text-blue-500"></i>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-center pt-5 pl-2 sm:justify-start sm:pt-0">
+                        <a href="/">
+                            <i class="bx bxl-facebook-square text-2xl text-blue-500 hover:text-yellow"></i>
+                        </a>
+                        <a href="/" class="pl-4">
+                            <i class="bx bxl-twitter text-2xl text-blue-500 hover:text-yellow"></i>
+                        </a>
+                        <a href="/" class="pl-4">
+                            <i class="bx bxl-dribbble text-2xl text-blue-500 hover:text-yellow"></i>
+                        </a>
+                        <a href="/" class="pl-4">
+                            <i class="bx bxl-linkedin text-2xl text-blue-500 hover:text-yellow"></i>
+                        </a>
+                        <a href="/" class="pl-4">
+                            <i class="bx bxl-instagram text-2xl text-blue-500 hover:text-yellow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full pl-0 pt-10 sm:w-3/4 lg:w-2/5 lg:pl-12 lg:pt-0">
+                <div>
+                    <div class="flex items-end justify-between">
+                        <h4 class="font-body font-semibold uppercase text-black">
+                            HTML & CSS
+                        </h4>
+                        <h3 class="font-body text-3xl font-bold text-blue-500">85%</h3>
+                    </div>
+                    <div class="mt-2 h-3 w-full rounded-full bg-lila">
+                        <div class="h-3 rounded-full bg-blue-500" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="pt-6">
+                    <div class="flex items-end justify-between">
+                        <h4 class="font-body font-semibold uppercase text-black">PHP</h4>
+                        <h3 class="font-body text-3xl font-bold text-blue-500">70%</h3>
+                    </div>
+                    <div class="mt-2 h-3 w-full rounded-full bg-lila">
+                        <div class="h-3 rounded-full bg-blue-500" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="pt-6">
+                    <div class="flex items-end justify-between">
+                        <h4 class="font-body font-semibold uppercase text-black">
+                            Javascript
+                        </h4>
+                        <h3 class="font-body text-3xl font-bold text-blue-500">98%</h3>
+                    </div>
+                    <div class="mt-2 h-3 w-full rounded-full bg-lila">
+                        <div class="h-3 rounded-full bg-blue-500" style="width: 98%"></div>
+                    </div>
+                </div>
+                <div class="pt-6">
+                    <div class="flex items-end justify-between">
+                        <h4 class="font-body font-semibold uppercase text-black">Canva</h4>
+                        <h3 class="font-body text-3xl font-bold text-blue-500">95%</h3>
+                    </div>
+                    <div class="mt-2 h-3 w-full rounded-full bg-lila">
+                        <div class="h-3 rounded-full bg-blue-500" style="width: 95%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <section class="container bg-slate-100">
         <h2 class="text-5xl uppercase text-center p-6">Keunggulan Kami</h2>
         <div class="flex justify-evenly">
@@ -250,7 +327,7 @@
 
     </section>
     <div class="container py-16 md:py-20 bg-slate-100" id="work">
-        <h2 class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+        <h2 class="text-center font-header text-4xl font-semibold uppercase text-blue-500 sm:text-5xl lg:text-6xl">
             My work experience
         </h2>
         <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
@@ -267,7 +344,8 @@
                             <img src="/img/game-developement-svgrepo-com.svg" class="h-auto w-32" alt="company logo" />
                         </span>
                         <div class="relative ml-3 hidden w-full md:block">
-                            <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-slate-500"></span>
+                            <span
+                                class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-slate-500"></span>
                         </div>
                     </div>
                 </div>
@@ -280,9 +358,11 @@
                             <i class="bx bxs-right-arrow hidden text-blue-800  md:block"></i>
                             <div class="md:-mt-1 md:pl-8">
                                 <span class="block font-body font-bold text-slate-300">Aug 2020 - July 2021</span>
-                                <span class="block pt-2 font-header text-xl font-bold uppercase text-blue-500">Game Developer</span>
+                                <span class="block pt-2 font-header text-xl font-bold uppercase text-blue-500">Game
+                                    Developer</span>
                                 <div class="pt-2">
-                                    <span class="block font-body text-black">Become a Game Developer after graduated from Koding Next.</span>
+                                    <span class="block font-body text-black">Become a Game Developer after graduated
+                                        from Koding Next.</span>
                                 </div>
                             </div>
                         </div>
@@ -296,55 +376,61 @@
                             <img src="/img/image (31) (1).svg" class="h-auto w-32" alt="company logo" />
                         </span>
                         <div class="relative ml-3 hidden w-full md:block">
-                            <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
+                            <span
+                                class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-slate-500"></span>
                         </div>
                     </div>
                 </div>
                 <div class="md:w-3/5">
                     <div class="relative flex md:pl-18">
                         <span
-                            class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-gray-400 bg-white md:block"></span>
+                            class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-blue-500 bg-blue-500 md:block"></span>
 
                         <div class="mt-1 flex">
-                            <i class="bx bxs-right-arrow hidden text-primary md:block"></i>
+                            <i class="bx bxs-right-arrow hidden text-blue-800  md:block"></i>
                             <div class="md:-mt-1 md:pl-8">
                                 <span class="block font-body font-bold text-slate-300">Oct 2023 - Mar 2024</span>
-                                <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">Secertary</span>
+                                <span
+                                    class="block pt-2 font-header text-xl font-bold uppercase text-blue-500">Secretary</span>
                                 <div class="pt-2">
-                                    <span class="block font-body text-black">Become to be Secertary at Student Organization IDN Boarding School Sentul</span>
+                                    <span class="block font-body text-black">Become to be Secretary at Student
+                                        Organization IDN Boarding School Sentul</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-           
+
             <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
                 <div class="md:w-2/5">
                     <div class="flex justify-center md:justify-start">
                         <span class="shrink-0">
-                            <img src="/img/male-programmer-upper-body-svgrepo-com.svg" class="h-auto w-32" alt="company logo" />
+                            <img src="/img/male-programmer-upper-body-svgrepo-com.svg" class="h-auto w-32"
+                                alt="company logo" />
                         </span>
                         <div class="relative ml-3 hidden w-full md:block">
-                            <span class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
+                            <span
+                                class="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-slate-500"></span>
                         </div>
                     </div>
                 </div>
                 <div class="md:w-3/5">
                     <div class="relative flex md:pl-18">
                         <span
-                            class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-black  md:block"></span>
+                            class="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-blue-500 bg-blue-500 md:block"></span>
 
                         <div class="mt-1 flex">
-                            <i class="bx bxs-right-arrow hidden text-gray-400 md:block"></i>
+                            <i class="bx bxs-right-arrow hidden text-blue-800  md:block"></i>
                             <div class="md:-mt-1 md:pl-8">
-                                <span class="block font-body font-bold text-gray-400">Jul 2023 - Now</span>
-                                <span class="block pt-2 font-header text-xl font-bold uppercase text-primary">IT Tariner</span>
+                                <span class="block font-body font-bold text-slate-300">Jul 2023 - Now</span>
+                                <span class="block pt-2 font-header text-xl font-bold uppercase text-blue-500">IT
+                                    Trainer</span>
                                 <div class="pt-2">
                                     <span class="block font-body text-black">Lorem ipsum dolor sit amet, consectetur
                                         adipiscing elit.
-                                        Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
-                                        venenatis enim.</span>
+                                        Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac venenatis
+                                        enim.</span>
                                 </div>
                             </div>
                         </div>
@@ -353,6 +439,77 @@
             </div>
         </div>
     </div>
+    <div class="bg-cover bg-top bg-no-repeat pb-16 md:py-16 lg:py-24"
+        style="background-image: url(/img/flow.png)" id="statistics">
+        <div class="container">
+            <div class="mx-auto w-5/6 bg-white py-16 shadow md:w-11/12 lg:py-20 xl:py-24 2xl:w-full">
+                <div class="grid grid-cols-2 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
+                    <div class="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
+                        <div>
+                            <img src="/img/plan-list-svgrepo-com.svg" class="mx-auto h-12 w-auto md:h-20"
+                                alt="icon project" />
+                        </div>
+                        <div class="pt-5 md:pl-5 md:pt-0">
+                            <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
+                                12
+                            </h1>
+                            <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
+                                Finished Projects
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
+                        <div>
+                            <img src="/img/trophy-svgrepo-com.svg" class="mx-auto h-12 w-auto md:h-20"
+                                alt="icon award" />
+                        </div>
+                        <div class="pt-5 md:pl-5 md:pt-0">
+                            <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
+                                3
+                            </h1>
+                            <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
+                                Awards Won
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div
+                        class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
+                        <div>
+                            <img src="/assets/img/icon-happy.svg" class="mx-auto h-12 w-auto md:h-20"
+                                alt="icon happy clients" />
+                        </div>
+                        <div class="pt-5 md:pl-5 md:pt-0">
+                            <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
+                                8
+                            </h1>
+                            <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
+                                Happy Clients
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div
+                        class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:flex-row md:text-left lg:mt-0">
+                        <div>
+                            <img src="/assets/img/icon-puzzle.svg" class="mx-auto h-12 w-auto md:h-20"
+                                alt="icon puzzle" />
+                        </div>
+                        <div class="pt-5 md:pl-5 md:pt-0">
+                            <h1 class="font-body text-2xl font-bold text-primary md:text-4xl">
+                                99
+                            </h1>
+                            <h4 class="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
+                                Bugs Fixed
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </body>
 
