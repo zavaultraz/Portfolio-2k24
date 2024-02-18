@@ -1167,6 +1167,10 @@ input:checked + .toggle-bg {
   margin: 0.75rem;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1180,6 +1184,11 @@ input:checked + .toggle-bg {
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .mb-1 {
@@ -1266,6 +1275,14 @@ input:checked + .toggle-bg {
   margin-inline-start: 1.5rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.me-4 {
+  margin-inline-end: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -1348,6 +1365,10 @@ input:checked + .toggle-bg {
 
 .h-2\.5 {
   height: 0.625rem;
+}
+
+.h-8 {
+  height: 2rem;
 }
 
 .w-0 {
@@ -1766,6 +1787,16 @@ input:checked + .toggle-bg {
 .bg-blue-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(225 239 254 / var(--tw-bg-opacity));
+}
+
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(118 169 250 / var(--tw-bg-opacity));
+}
+
+.bg-blue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 100 242 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
@@ -2208,6 +2239,10 @@ input:checked + .toggle-bg {
   color: rgb(26 86 219 / var(--tw-text-opacity));
 }
 
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
 .focus\:z-10:focus {
   z-index: 10;
 }
@@ -2387,8 +2422,21 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 640px) {
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sm\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .sm\:block {
     display: block;
+  }
+
+  .sm\:flex {
+    display: flex;
   }
 
   .sm\:w-3\/4 {
@@ -2399,12 +2447,24 @@ input:checked + .toggle-bg {
     flex-direction: row;
   }
 
+  .sm\:items-center {
+    align-items: center;
+  }
+
   .sm\:justify-start {
     justify-content: flex-start;
   }
 
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+
   .sm\:pt-0 {
     padding-top: 0px;
+  }
+
+  .sm\:text-center {
+    text-align: center;
   }
 
   .sm\:text-2xl {
@@ -2429,6 +2489,10 @@ input:checked + .toggle-bg {
 
   .md\:mt-10 {
     margin-top: 2.5rem;
+  }
+
+  .md\:me-6 {
+    margin-inline-end: 1.5rem;
   }
 
   .md\:block {
@@ -2504,6 +2568,11 @@ input:checked + .toggle-bg {
     padding-bottom: 5rem;
   }
 
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .md\:pl-18 {
     padding-left: 4.5rem;
   }
@@ -2571,6 +2640,11 @@ input:checked + .toggle-bg {
 @media (min-width: 1024px) {
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
+  }
+
+  .lg\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .lg\:mt-0 {
