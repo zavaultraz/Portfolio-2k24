@@ -30,6 +30,7 @@
     * {
         scroll-behavior: smooth;
     }
+    
 
     ::-webkit-scrollbar-track {
         background: #fff;
@@ -43,6 +44,19 @@
     ::-webkit-scrollbar {
         width: 10px;
     }
+    #text1 {
+    position: relative; 
+}
+#text2 {
+    position: relative; 
+
+}
+#text3 {
+    position: relative; 
+}
+#skill1{
+    position: relative;
+}
 </style>
 
 <body>
@@ -98,14 +112,11 @@
 
 
     <section class="bg-white">
-        <div class="justify-center flex">
-            <div class="text-start my-20 ml-9">
-                <h1 class="text-7xl uppercase pb-5 font-header">HELLO,It's me</h1>
-                <h3 class="text-5xl uppercase pb-8">ZAVA ZANETA</h3>
-                <h3 class="text-5xl uppercase pb-8">And I'm a <span class="multiple-text text-blue-500"></span></h3>
-                <p class="text-xl text-gray-500 text-justify ">Hello, I'm Zava Zaneta, an Indonesian software engineer
-                    pursuing a career in web development. 💻 Enjoying a new adventure in learning web development with a
-                    burning passion! 🌟 Let's build something amazing together! 💪🚀</p>
+        
+            <div class="text-center  my-20 ml-9 intro1 overflow-hidden">
+                <h1 class="text-5xl uppercase pb-5 font-header" id="text1">HELLO,It's me</h1>
+                <h3 class="text-5xl uppercase pb-8" id="text2">ZAVA ZANETA</h3>
+                <h3 class="text-5xl uppercase pb-8" id="text3">And I'm a <span class="multiple-text text-blue-500"></span></h3>
                 <a href="https://online.publuu.com/481620/1082275" target="_blank" rel="noopener noreferrer">
                     <button
                         class="bg-blue-600 mt-4 text-white border border-blue-400 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group">
@@ -114,17 +125,15 @@
                         Download Cv
                     </button>
                 </a>
-
-
-
-
             </div>
-            <img class="w-[500px] me-auto" src="/img/cr1.png" alt="">
-        </div>
+            <!-- <img class="w-[500px] me-auto sm:hidden" src="/img/cr1.png" alt=""> -->
+       
     </section>
-    <div class="bg-grey-50" id="about">
+    <br >
+    <br>
+    <div class="bg-grey-50  " style="overflow-x: scroll;" id="about">
         <div class="container flex flex-col items-center py-16 md:py-20 lg:flex-row">
-            <div class="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
+            <div class="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left about1">
                 <h2 class="font-header text-4xl font-semibold uppercase  sm:text-5xl lg:text-6xl">
                     Who am I?
                 </h2>
@@ -166,12 +175,12 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full pl-0 pt-10 sm:w-3/4 lg:w-2/5 lg:pl-12 lg:pt-0">
+            <div class="w-full pl-0  pt-10 sm:w-3/4 lg:w-2/5 lg:pl-12 lg:pt-0 about2">
                 <div>
                     <div class="flex items-end justify-between">
                         <h4 class="font-body font-semibold uppercase text-black">
-                            <i class='bx bxl-html5 text-[#DD4B25] text-5xl'></i><i
-                                class='bx bxl-css3 text-[#254BDD] text-5xl'></i>
+                            <i class='bx bxl-html5 text-[#DD4B25] text-3xl'></i><i
+                                class='bx bxl-css3 text-[#254BDD] text-3xl'></i>
                         </h4>
                         <h3 class="font-body text-3xl font-bold text-blue-500">96%</h3>
                     </div>
@@ -214,17 +223,17 @@
             </div>
         </div>
     </div>
-    <div class="flex flex-col mx-3 bg-white rounded-lg">
+    <div class="flex flex-col mx-3 bg-white rounded-lg overflow-hidden">
         <div class="w-full draggable">
-            <div class="container flex flex-col items-center gap-8 mx-auto my-6">
+            <div class="container flex flex-col items-center gap-8 mx-auto my-6 ">
                 <p
-                    class="font-header text-4xl font-semibold  text-blue-500 leading-7 text-center text-dark-grey-600 uppercase">
+                    class="font-header text-4xl font-semibold textservis text-blue-500 leading-7 text-center text-dark-grey-600 uppercase">
                     best skills</p>
                 <div
-                    class="flex flex-wrap items-center justify-center w-full gap-6 lg:gap-0 lg:flex-nowrap lg:justify-between">
+                    class="flex flex-wrap items-center justify-center w-full gap-6 lg:gap-0 lg:flex-nowrap lg:justify-between"  >
 
                     <a href="#"
-                        class="block max-w-sm p-6  rounded-lg  hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        class="block max-w-sm p-6 textservis rounded-lg  hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                         <img src="/img/html-5-svgrepo-com.svg" alt="" class="mx-auto w-20 h-20">
                         <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
                             HTML</h5>
@@ -270,7 +279,7 @@
                     </a>
 
                     <a href="#"
-                        class="block max-w-sm p-6  rounded-lg  hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        class="block max-w-sm p-6 textservis rounded-lg  hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                         <img src="/img/icon/js-svgrepo-com.svg" alt="" class="mx-auto w-20 h-20">
                         <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
                             Java Script</h5>
@@ -315,7 +324,7 @@
                         </ul>
                     </a>
                     <a href="#"
-                        class="block max-w-sm p-6  rounded-lg  hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        class="block max-w-sm p-6 textservis rounded-lg  hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                         <img src="/img/icon/laravel-svgrepo-com.svg" alt="" class="mx-auto w-20 h-20">
                         <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">
                             Laravel</h5>
@@ -367,12 +376,13 @@
     <div class="bg-cover bg-top bg-no-repeat pb-16 md:py-16 lg:py-24"
         style="background-image: url(/img/wave\ \(1\).svg)" id="statistics">
     </div>
-    
-    <section class="container bg-slate-100" id="services">
-        <h2 class="text-5xl uppercase text-blue-500 text-center font-semibold font-header p-6">Service Available</h2>
-        <div class="grid grid-cols-3 gap-5 mt-15">
 
-            <div class="relative group h-48 flex   flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+    <section class="container bg-slate-100" id="services">
+        <h2 class="text-5xl uppercase text-blue-500 textservis text-center font-semibold font-header p-6">Service Available</h2>
+        <div class="grid md:grid-cols-3 grid-cols-1 gap-15 services1 mt-15">
+
+            <div
+                class="relative group h-48 flex    flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                 <a href="#" class="block">
                     <div class="h-28">
                         <div
@@ -428,12 +438,12 @@
 
         </div>
         <div>
-            <h2 class="text-5xl uppercase text-center text-blue-500 font-header font-bold p-20">My advantages</h2>
+            <h2 class="text-5xl uppercase text-center textservis text-blue-500 font-header font-bold p-20">My advantages</h2>
             <div class="flex justify-around">
                 <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-8 ">
                     <div class="grid grid-cols-2 gap-4 lg:col-span-1 m-3 ">
                         <div
-                            class="relative overflow-hidden max-w-sm rounded-3xl cursor-pointer text-2xl font-bold bg-white">
+                            class="relative advantage1 overflow-hidden max-w-sm rounded-3xl cursor-pointer text-2xl font-bold bg-white">
                             <div class="z-10 absolute w-full h-full peer"></div>
                             <div
                                 class="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-blue-300 transition-all duration-500">
@@ -472,7 +482,7 @@
                         </div>
                         <!--  -->
                         <div
-                            class="relative overflow-hidden max-w-sm rounded-3xl cursor-pointer text-2xl font-bold bg-white">
+                            class="relative advantage2 overflow-hidden max-w-sm rounded-3xl cursor-pointer text-2xl font-bold bg-white">
                             <div class="z-10 absolute w-full h-full peer"></div>
                             <div
                                 class="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-blue-300 transition-all duration-500">
@@ -498,7 +508,7 @@
 
                         <!--  -->
                         <div
-                            class="relative overflow-hidden max-w-sm rounded-3xl cursor-pointer text-2xl font-bold bg-white">
+                            class="relative advantage2 overflow-hidden max-w-sm rounded-3xl cursor-pointer text-2xl font-bold bg-white">
                             <div class="z-10 absolute w-full h-full peer"></div>
                             <div
                                 class="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-blue-300 transition-all duration-500">
@@ -517,7 +527,7 @@
                             </div>
                         </div>
                         <div
-                            class="relative overflow-hidden max-w-sm rounded-3xl cursor-pointer text-2xl font-bold bg-white">
+                            class="relative advantage1 overflow-hidden max-w-sm rounded-3xl cursor-pointer text-2xl font-bold bg-white">
                             <div class="z-10 absolute w-full h-full peer"></div>
                             <div
                                 class="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-blue-300 transition-all duration-500">
@@ -578,10 +588,10 @@
         style="background-image: url(/img/wave\ \(2\).svg)" id="statistics"></div>
 
     <div class="container py-16 md:py-20 bg-slate-100" id="experience">
-        <h2 class="text-center font-header text-4xl font-semibold uppercase text-blue-500 sm:text-5xl lg:text-6xl">
+        <h2 class="text-center textservis font-header text-4xl font-semibold uppercase text-blue-500 sm:text-5xl lg:text-6xl">
             My work experience
         </h2>
-        <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+        <h3 class="pt-6 text-center textbawah font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
             Here's what I did before freelancing
         </h3>
 
@@ -761,31 +771,30 @@
         </div>
     </div>
     <div class="bg-white container " id="portfolio">
-        <h2 class="text-center font-header pt-9 text-4xl font-semibold uppercase text-blue-500 sm:text-5xl lg:text-6xl">
+        <h2 class="text-center textservis font-header pt-9 text-4xl font-semibold uppercase text-blue-500 sm:text-5xl lg:text-6xl">
             My Portfolio
         </h2>
-        <h3 class="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+        <h3 class="pt-6 text-center textservis font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
             Here's you can see some of my projects that I have worked.
         </h3>
 
-        <div class="mb-4 border-b border-gray-200 dark:border-gray-700 justify-center flex">
-            <ul class="flex  flex-wrap text-sm font-medium text-center" id="default-tab"
-                data-tabs-toggle="#default-tab-content" role="tablist">
+        <div class="mb-4 border-b  border-gray-200 dark:border-gray-700 justify-center flex">
+            <ul class="grid grid-cols-3" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
                 <li class="me-2" role="presentation">
-                    <button class="inline-block p-4 text-3xl border-b-2 rounded-t-lg" id="profile-tab"
+                    <button class="inline-block p-4 text-3xl md:text-3xl border-b-2 rounded-t-lg" id="profile-tab"
                         data-tabs-target="#profile" type="button" role="tab" aria-controls="profile"
-                        aria-selected="false"><i class="fa-solid fa-file"></i> Project</button>
+                        aria-selected="false"><i class="fa-solid fa-folder-open"></i> Project</button>
                 </li>
                 <li class="me-2" role="presentation">
                     <button
-                        class="inline-block p-4 text-3xl border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                        class="inline-block p-4  text-3xl md:text-3xl border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
                         id="dashboard-tab" data-tabs-target="#dashboard" type="button" role="tab"
                         aria-controls="dashboard" aria-selected="false"><i class="fa-regular fa-circle-check"></i>
                         Certificate</button>
                 </li>
                 <li class="me-2" role="presentation">
                     <button
-                        class="inline-block p-4 text-3xl border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                        class="inline-block p-4  text-3xl md:text-3xl border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
                         id="settings-tab" data-tabs-target="#settings" type="button" role="tab" aria-controls="settings"
                         aria-selected="false"><i class="fa-solid fa-user-check"></i> Experience</button>
                 </li>
@@ -795,7 +804,7 @@
         <div id="default-tab-content ">
             <div class="hidden p-4 rounded-lg  bg-gray-50 dark:bg-gray-800" id="profile" role="tabpanel"
                 aria-labelledby="profile-tab">
-                <div class="grid grid-cols-3">
+                <div class="grid grid-cols-1 md:grid-cols-2 md:gap-8  xl:grid-cols-3" >
                     <div
                         class="max-w-sm bg-white  mb-5 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <a href="#">
@@ -1085,7 +1094,7 @@
             </div>
             <div class="hidden p-4 rounded-lg bg-gray-50  dark:bg-gray-800" id="dashboard" role="tabpanel"
                 aria-labelledby="dashboard-tab">
-                <div class="grid grid-cols-3 gap-2">
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
                     <div class="unique-card mb-5"><img src="/img/sertifikat/data visual.jpg" alt="">
                         <div class="background-overlay"></div>
                         <div class="card-content">
@@ -1147,38 +1156,36 @@
             <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="settings" role="tabpanel"
                 aria-labelledby="settings-tab">
 
-                <div class="justify-between flex">
-                    <img src="/img/asett/1.png" class="w-[500px]" alt="">
-                    <div class="text-end my-auto ">
-                        <h2 class="text-4xl text-blue-500 font-bold font-header uppercase py-3">Scratch Trainer IN SDIT
-                            AL-Amanah</h2>
-                        <h3 class="text-2xl  text-slate-400 font-body">As a Trainers, my job is not only to teach kids
-                            how to code, but also
-                            how to face challenges, overcome failures, and celebrate small successes. I am their
-                            advocate
-                            every step of the way, providing encouragement when they get frustrated and sharing the joy
-                            when
-                            they achieve their goals.</h3>
+                <div class="flex flex-wrap justify-between">
+                    <img src="/img/asett/1.png" class="w-full md:w-1/2" alt="">
+                    <div class="text-end my-auto">
+                        <h2 class="text-4xl text-blue-500 font-bold font-header uppercase py-3 md:text-3xl">Scratch
+                            Trainer IN SDIT AL-Amanah</h2>
+                        <h3 class="text-2xl text-slate-400 font-body leading-loose md:text-xl">
+                            As a Trainers, my job is not only to teach kids how to code, but also how to face
+                            challenges, overcome failures, and celebrate small successes. I am their advocate every step
+                            of the way, providing encouragement when they get frustrated and sharing the joy when they
+                            achieve their goals.
+                        </h3>
                     </div>
                 </div>
                 <div class="justify-between flex">
-                    <div class="text-start my-auto ">
-                        <h2 class="text-4xl text-blue-500 font-bold font-body uppercase py-3">IT Trainer IN SMPN 129
-                            Jakarta</h2>
-                        <h3 class="text-2xl  text-slate-400 font-body">As a Trainers, my job is not only to teach kids
-                            how to code, but also
-                            how to face challenges, overcome failures, and celebrate small successes. I am their
-                            advocate
-                            every step of the way, providing encouragement when they get frustrated and sharing the joy
-                            when
-                            they achieve their goals.</h3>
+                    <div class="flex flex-wrap justify-between">
+                        <div class="text-start my-auto">
+                            <h2 class="text-4xl mt-24 md:mt-0 text-blue-500 font-bold font-body uppercase py-3 md:text-3xl">IT Trainer
+                                IN SMPN 129 Jakarta</h2>
+                            <h3 class="text-2xl text-slate-400 font-body leading-loose md:text-xl">
+                                As a Trainers, my job is not only to teach kids how to code, but also how to face
+                                challenges, overcome failures, and celebrate small successes. I am their advocate every
+                                step of the way, providing encouragement when they get frustrated and sharing the joy
+                                when they achieve their goals.
+                            </h3>
+                        </div>
+                        <img src="/img/asett/2.png" class="w-full md:w-1/2" alt="">
                     </div>
-                    <img src="/img/asett/2.png" class="w-[500px]" alt="">
-
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
 
@@ -1215,6 +1222,7 @@
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 
 
     <script src="index.js"></script>
